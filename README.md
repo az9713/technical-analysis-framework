@@ -1,5 +1,9 @@
 # TA Framework
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://kxikszc5jxsz4h8nwgrvmj.streamlit.app/)
+
+> **Live Demo**: https://kxikszc5jxsz4h8nwgrvmj.streamlit.app/
+
 A Python technical analysis toolkit combining 38 indicators, rule-based signal generation, vectorized backtesting, risk management, and interactive Streamlit dashboards into a single importable package.
 
 Built on pandas DataFrames as the universal data container. Uses [pandas-ta-classic](https://github.com/pandas-ta/pandas-ta) for cross-platform indicator computation -- no TA-Lib or C compilation required.
