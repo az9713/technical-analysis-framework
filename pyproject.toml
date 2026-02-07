@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ta-framework"
+version = "0.1.0"
+description = "Technical Analysis Framework: indicators, signals, backtesting, risk management, and analytics"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+dependencies = [
+    "pandas>=2.0,<3.0",
+    "numpy>=1.24",
+    "pandas-ta-classic>=0.1.0",
+    "yfinance>=0.2.0",
+    "plotly>=5.0",
+    "streamlit>=1.30",
+    "scipy>=1.10",
+    "scikit-learn>=1.3",
+]
+
+[project.optional-dependencies]
+crypto = ["ccxt>=4.0"]
+regime = ["hmmlearn>=0.3"]
+accel = ["numba>=0.57"]
+dev = ["pytest>=7.0", "pytest-cov>=4.0"]
+all = ["ccxt>=4.0", "hmmlearn>=0.3", "numba>=0.57", "pytest>=7.0", "pytest-cov>=4.0"]
+
+[tool.setuptools.packages.find]
+include = ["ta_framework*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"
