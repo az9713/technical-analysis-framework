@@ -10,7 +10,7 @@ Built on pandas DataFrames as the universal data container. Uses [pandas-ta-clas
 
 ![Strategy Comparison](docs/images/strategy_compare.jpg)
 
-![Multi-Asset Correlation](docs/images/correlation.jpg)
+![Multi-Asset Comparison](docs/images/compare.jpg)
 
 ## Features
 
