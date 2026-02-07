@@ -10,6 +10,8 @@ Built on pandas DataFrames as the universal data container. Uses [pandas-ta-clas
 
 ![Strategy Comparison](docs/images/strategy_compare.jpg)
 
+![Multi-Asset Correlation](docs/images/correlation.jpg)
+
 ## Features
 
 **Indicators** -- 38 production-quality indicators across trend (SMA, EMA, VWMA, HMA, KAMA, Supertrend, Ichimoku, ADX, Parabolic SAR), momentum (RSI, MACD, Stochastic, CCI, MFI, TSI), volatility (Bollinger Bands, ATR, Keltner Channel, Donchian), volume (OBV, VWAP, CMF, A/D Line), and overlap (Pivot Points, Fibonacci). Custom indicator API for proprietary calculations.
