@@ -9,7 +9,10 @@ from __future__ import annotations
 
 import numpy as np
 import pandas as pd
-import pandas_ta as ta
+try:
+    import pandas_ta as ta
+except ImportError:
+    import pandas_ta_classic as ta
 
 
 # ---------------------------------------------------------------------------
