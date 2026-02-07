@@ -4,6 +4,8 @@ A Python technical analysis toolkit combining 38 indicators, rule-based signal g
 
 Built on pandas DataFrames as the universal data container. Uses [pandas-ta-classic](https://github.com/pandas-ta/pandas-ta) for cross-platform indicator computation -- no TA-Lib or C compilation required.
 
+![Dashboard Screenshot](docs/images/dashboard.jpg)
+
 ## Features
 
 **Indicators** -- 38 production-quality indicators across trend (SMA, EMA, VWMA, HMA, KAMA, Supertrend, Ichimoku, ADX, Parabolic SAR), momentum (RSI, MACD, Stochastic, CCI, MFI, TSI), volatility (Bollinger Bands, ATR, Keltner Channel, Donchian), volume (OBV, VWAP, CMF, A/D Line), and overlap (Pivot Points, Fibonacci). Custom indicator API for proprietary calculations.
